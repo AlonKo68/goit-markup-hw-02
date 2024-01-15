@@ -26,11 +26,17 @@ button {
     cursor: pointer;
 }
 
+h1,
+h2,
+h3 {
+    letter-spacing: inherit;
+}
+
 /* common styles */
 .header-logo,
 .footer-logo {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -129,10 +135,11 @@ button {
 .hero-btn {
     background: var(--IRIS, #4D5AE5);
     letter-spacing: 0.04em;
+    line-height: inherit;
 }
 .hero-btn:focus,
 .hero-btn:hover {
-    color: var(--WHITE, #FFF);
+   background-color: #404BBF;
 }
 /* benefits section */
 .benefits {
@@ -157,6 +164,7 @@ button {
 .users-list {
 }
 .users-item {
+    background: var(--WHITE, #FFF);
 }
 .users-avatar {
 }
