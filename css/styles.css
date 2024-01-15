@@ -25,11 +25,10 @@ button {
     background-color: transparent;
     cursor: pointer;
 }
-
 h1,
 h2,
 h3 {
-    letter-spacing: inherit;
+    letter-spacing: 0.02em;
 }
 
 /* common styles */
