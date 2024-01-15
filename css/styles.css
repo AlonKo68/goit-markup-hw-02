@@ -1,26 +1,61 @@
 /* base styles */
 body {
-    font-family: 'Roboto', sans-serif;
-
+    background-color: #FFF;
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-/* reset styles */
+
+  /* reset styles */
+  ul,
+  ol {
+    list-style-type: none;
+  }
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+address {
+    font-style: inherit;
+}
+button {
+    font-family: inherit;
+    color: currentColor;
+    background-color: transparent;
+    cursor: pointer;
+}
 
 /* common styles */
-.accent {
+.header-logo,
+.footer-logo {
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 /* header */
 .header {
+    
 }
 .header-nav {
 }
 .header-logo {
+}
+.logo-dark {
+    color: #2E2F42;
 }
 .nav-list {
 }
 .nav-item {
 }
 .nav-link {
+    color: #2E2F42;
+    font-weight: 500;
 }
 .header-address {
 }
@@ -33,10 +68,19 @@ body {
 
 /* hero section */
 .hero {
+    background-color: #2E2F42;
+    color: #FFF;
 }
 .hero-title {
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
 }
 .hero-btn {
+    background: var(--IRIS, #4D5AE5);
+    color: var(--WHITE, #FFF);
+    font-weight: 500;
+    letter-spacing: 0.04em;
 }
 
 /* benefits section */
@@ -49,14 +93,25 @@ body {
 .benefits-item {
 }
 .benefits-captain {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
 }
 .benefits-desc {
+    color: var(--SLATE, #434455);
 }
 
 /* users section */
 .users {
+    background: var(--CLOUD, #F4F4FD);
 }
 .users-subject {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
 }
 .users-list {
 }
@@ -65,14 +120,26 @@ body {
 .users-avatar {
 }
 .users-review {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
 }
 .users-desc {
+    color: var(--SLATE, #434455);
+    text-align: center;
 }
 
 /* portfolio section */
 .portfolio {
 }
 .portfolio-subject {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
 }
 .portfolio-list {
 }
@@ -81,16 +148,26 @@ body {
 .portfolio-pic {
 }
 .portfolio-captain {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
 }
 .portfolio-desc {
+    color: var(--SLATE, #434455);
 }
 
 /* footer section */
 .footer {
+    background: var(--NAVY-BLUE, #2E2F42);
 }
 .footer-logo {
 }
+.logo-light {
+    color: #F4F4FD;
+}
 .footer-slogan {
+    color: var(--CLOUD, #F4F4FD);
 }
 
  
